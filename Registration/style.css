@@ -1,0 +1,43 @@
+h2{
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container1{
+    background-color: rgb(0, 0, 0);
+    margin: 0px 450px ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.container{
+    background-color: darkgray;
+    margin: 10px 50px ;
+    padding: 20px;
+    border-radius: 20px;
+}
+label{
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin: 20px;
+}
+
+input{
+    border-radius: 30px;
+}
+body{
+   background-color:white;
+    display: block;text-align: center;
+}
+textarea{
+    border-radius: 30px;
+}
+button{
+    
+    margin: 30px;
+    background-color: rgb(223, 247, 239);
+}
+button:hover{
+    background-color: azure;
+}
