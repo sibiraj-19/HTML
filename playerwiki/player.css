@@ -11,36 +11,39 @@ h2{
     text-shadow: 2px 2px burlywood;
 }
 
-h1{
+label{
+    font-size: xx-large;
     font-style: italic;
-    color: chartreuse;
+    color: rgb(255, 0, 0);
     text-shadow: 2px 2px burlywood;
 }
 
-.cont2{
-/* padding:4% ;
-padding-left:5%;
-padding-right:5%; */
 
-    /* margin-bottom: 10%; */
-    background-color: rgb(80, 79, 79);
-}
 img{
     /* padding:10px 30px 10px 40px; */
     margin: 30px 30px 30px 30px;
 }
 
-h1:hover{
-    color: brown;
-}
+
 body:hover{
     background-color: rgb(108, 194, 194);
 }
 .cont2:hover{
+    color: brown;
     background-color: rgb(63, 175, 175);
 }
-img:hover{
-    /* size:20px; */
+.cont{
+    margin-top: 14%;
+padding-bottom: 4%;
+padding-right: 3%;
+padding-left: 3%;
+}
+.cont:hover{
+    background-color: aquamarine;
+   color: brown;
+}
+label:hover{
+    color: brown;
 }
 
 
