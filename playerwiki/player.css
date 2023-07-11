@@ -26,7 +26,7 @@ padding-right:5%;
     background-color: rgb(80, 79, 79);
 }
 img{
-    padding:10px 30px 10px 30px;
+    padding:10px 30px 10px 40px;
     margin: 30px 30px 30px 30px;
 }
 
@@ -38,6 +38,9 @@ body:hover{
 }
 .cont2:hover{
     background-color: rgb(63, 175, 175);
+}
+img:hover{
+    /* size:20px; */
 }
 
 
