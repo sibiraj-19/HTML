@@ -1,9 +1,15 @@
 
 body{
-    background-color:black;
-    margin: 200px 20px;
+    background-color:rgb(66, 64, 64);
+    margin: 100px 250px 90px 250px;
+ /* background-image: url(26723-the-ipl-2022-trophy.webp);
+background-repeat:no-repeat; */
 }
-
+h2{
+    font-style: italic;
+    color:white;
+    text-shadow: 2px 2px burlywood;
+}
 
 h1{
     font-style: italic;
@@ -11,8 +17,27 @@ h1{
     text-shadow: 2px 2px burlywood;
 }
 
+.cont2{
+padding:4% ;
+padding-left:5%;
+padding-right:5%;
 
-.cont{
-    background-color: beige;
-    width: 70%;
+    margin-bottom: 10%;
+    background-color: rgb(80, 79, 79);
 }
+img{
+    padding:10px 30px 10px 30px;
+    margin: 30px 30px 30px 30px;
+}
+
+h1:hover{
+    color: brown;
+}
+body:hover{
+    background-color: rgb(108, 194, 194);
+}
+.cont2:hover{
+    background-color: rgb(63, 175, 175);
+}
+
+
