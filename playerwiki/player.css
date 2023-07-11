@@ -1,12 +1,17 @@
 
 body{
     background-color:black;
+    margin: 200px 20px;
 }
 
 
-img{
-    margin-left: 10%;
-    margin-top: 5%;
-    width: 1536px;
-    height: 655px;
+h1{
+    font-style: italic;
+    color: chartreuse;
+    text-shadow: 2px 2px burlywood;
+}
+
+
+.cont{
+    background-color: beige;
 }
