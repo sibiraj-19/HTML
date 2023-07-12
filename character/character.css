@@ -44,7 +44,13 @@ img{
     text-shadow: 3px 1px rgb(255, 0, 221);
 }
 img:hover {
-    animation: shake .6s;
+        width: 165px;
+        height: 215px;
+        
+        border-top-left-radius: 40%;
+     border-bottom-right-radius: 40%;
+     border-bottom-left-radius:10% ;
+        animation: shake .6s;
     animation-iteration-count: infinite;
   }
   @keyframes shake {
