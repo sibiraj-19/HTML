@@ -1,0 +1,56 @@
+body{
+    background-image: url(/character/hogwart.jpg);
+}
+    /* background-repeat: no-repeat ;
+    background-size:200%} */
+.con{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    padding: 10%;
+    background-color: rgb(128, 128, 128,0.3);
+   
+}
+
+img{
+    height: 170px;
+    width: 150px;
+    border: 3px solid rgb(243, 158, 0);
+     border-top-left-radius: 40%;
+     border-bottom-right-radius: 40%;
+     border-bottom-left-radius:10% ;
+    margin-top:70px;
+    margin-left:20px;
+}
+
+.con:hover{
+    font-size: large;
+    background-color: rgba(42, 108, 110, 0.4);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 1px chartreuse;
+}
+.title:hover{
+    color: cyan;
+    text-shadow: 3px 1px rgb(255, 0, 221);
+}
+img:hover {
+    animation: shake .6s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+   
+
+  }  

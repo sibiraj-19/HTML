@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+   
+}
+
+.emoji{
+
+  
+    background-color: yellow;
+    padding:150px;
+    margin: 250px;
+    border-radius: 90% ;
+    width: 1%;
+position: relative;
+}
+.eye{
+  
+    position: absolute;
+    
+    padding-right: 90%;
+    /* margin: 50px; */
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    height:10px;
+    width: 01px;
+    border-radius:50px ;
+}
+/* .eye span{
+    display: inline-block;
+     
+     position: absolute;
+    margin-right: 200%;
+     background-color: rgb(230, 206, 206);
+     height:10px;
+     width: 01px;
+     border-radius:50px ;
+ } */
+.eye2{
+   
+    
+    position: absolute;
+    content:"";
+    margin-left:80%;
+    padding: 20px;
+    background-color: rgb(247, 239, 239);
+    height:10px;
+    width: 01px;
+    border-radius:50px ;
+}
+
