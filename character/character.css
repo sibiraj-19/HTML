@@ -60,3 +60,7 @@ img:hover {
    
 
   }  
+   
+  audio{
+    display:none;
+  }
