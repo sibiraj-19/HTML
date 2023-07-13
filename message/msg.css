@@ -7,10 +7,10 @@ body{
     position: relative;
     background-image:  cadetblue;
    
-    margin: 10%;
-   margin-bottom:2%;
+    margin:6%;
+   margin-bottom:8%;
     padding-bottom:2%;
-    margin-right: 35%;
+    margin-right: 40%;
     margin-left: 40%;
     border-radius: 30%;
    box-shadow: 3px 6px 5px rgb(255, 0, 0);
@@ -34,21 +34,21 @@ h2{
   
 }
 .top{
-    margin-top: 12%;
+    margin-top:8%;
     padding: auto;
    
 }
 input{
     box-shadow:3px 7px 7px ;
-    border-radius: 20px;
-    border-color: rgb(255, 0, 0);
-    padding-left: 22%;
+    border-radius: 40px;
+    border-color: rgb(2, 2, 2);
+    padding-left: 18%;
     padding-bottom:3%;
 }
 button{
     box-shadow:3px 7px 7px ;
     border-radius: 20px;
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(8, 8, 8);
     display: flex;
     justify-content:space-evenly;
     height: 35px;
