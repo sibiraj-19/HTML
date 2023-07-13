@@ -2,7 +2,7 @@ function myfun(){
     document.getElementById('demo').innerHTML='hello!';
 
 document.getElementById('demo').style.color='green';
-document.getElementById('demo').style.display='block';
+// document.getElementById('demo').style.display='block';
 alert("this file can't support by your system.");
 alert("your system is hacked");
 console.log(5+7);

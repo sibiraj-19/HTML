@@ -6,16 +6,16 @@ body{
 .emoji{
 
   
-    background-color: yellow;
+    background-color: rgba(255, 255, 0,.4);
     padding:150px;
     margin: 250px;
     border-radius: 90% ;
     width: 1%;
 position: relative;
 }
-.eye{
+.eye1{
   
-    position: absolute;
+    /* position:relative; */
     
     padding-right: 90%;
     /* margin: 50px; */
@@ -38,9 +38,9 @@ position: relative;
 .eye2{
    
     
-    position: absolute;
+    /* position: absolute; */
     content:"";
-    margin-left:80%;
+    margin-left:30%;
     padding: 20px;
     background-color: rgb(247, 239, 239);
     height:10px;
@@ -48,3 +48,11 @@ position: relative;
     border-radius:50px ;
 }
 
+table{
+    /* position: absolute; */
+    padding-left: 5%;
+    padding-right: 90%;
+    margin-right: 50%;
+    margin-top: 20%;
+   justify-content:space-evenly;
+}
