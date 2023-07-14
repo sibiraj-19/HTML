@@ -1,58 +1,95 @@
-body{
-    background-color: black;
+.smili{
+    /* background-color:gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
    
 }
 
 .emoji{
+     display: flex;
+     align-items: end;
+     justify-content: space-around;
+    height:350px;
+    width:350px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 0);
+    position: relative;
+    box-shadow: 13px 4px 18px rgb(221, 8, 115);
 
-  
-    background-color: rgba(255, 255, 0,.4);
-    padding:150px;
-    margin: 250px;
-    border-radius: 90% ;
-    width: 1%;
-position: relative;
 }
 .eye1{
-  
-    /* position:relative; */
-    
-    padding-right: 90%;
-    /* margin: 50px; */
-    padding: 20px;
-    background-color: rgb(255, 0, 0);
-    height:10px;
-    width: 01px;
-    border-radius:50px ;
+    height:70px;
+    width:50px;
+    border-radius: 50%;
+    border:3px;
+    border:3px solid black;
+    background-color:rgb(250, 0, 0);
+    position: absolute;
+    top:220px;
+    left:80px;
 }
-/* .eye span{
-    display: inline-block;
-     
-     position: absolute;
-    margin-right: 200%;
-     background-color: rgb(230, 206, 206);
-     height:10px;
-     width: 01px;
-     border-radius:50px ;
- } */
 .eye2{
-   
-    
-    /* position: absolute; */
-    content:"";
-    margin-left:30%;
-    padding: 20px;
-    background-color: rgb(247, 239, 239);
-    height:10px;
-    width: 01px;
-    border-radius:50px ;
+    height:70px;
+    width:50px;
+    border-radius: 50%;
+    border:3px solid black;
+    background-color:rgb(255, 0, 0);
+    position: absolute;
+    top:220px;
+    left:220px;
 }
+.pupli1{
 
-table{
+      height:50px;
+    width:30px;
+    border-radius: 50%;
+    background-color:rgb(255, 255, 255);
     /* position: absolute; */
-    padding-left: 5%;
-    padding-right: 90%;
-    margin-right: 50%;
-    margin-top: 20%;
-   justify-content:space-evenly;
+    margin: auto;
+   
+}
+.pupli2{
+     height:50px;
+    width:30px;
+    border-radius: 50%;
+    background-color:rgb(255, 255, 255);
+    /* position: absolute; */
+    margin: auto;
+}
+.mouth{
+    position: absolute;
+    /* background-color: rgb(255, 0, 0); */
+    bottom: 100px;
+    height: 150px;
+    width: 209px;
+     
+    border: 6px solid transparent;
+    border-top: 15px solid black;
+    border-radius: 100%;
+   transform: translate(0%);
+    
+}
+.emoji:hover{
+    transform: rotate(180deg);
+    background-color: aqua; 
+    margin-left:2px ;
+    margin-top:20px ;
+   box-shadow: 13px 4px 18px wheat;
+   
+}
+body{
+    
+   background-image: linear-gradient(black,grey);
+}
+label{
+    font-size: 90px;
+    color: gold;
+    text-shadow: 10px 3px 9px ;
+}
+.font{
+    font-size: 90px;
+    color: cadetblue;
+    text-shadow: 10px 3px 9px ;
 }

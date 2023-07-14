@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clr.css">
+</head>
+<div class="full">
+<body>
+    <div class="up">
+    <center>
+    <button type="button" onclick="toclr()"><b>I'M USELESS </b></button>
+</div>
+    </center>
+</body>
+</div>
+<script>
+function toclr(){
+    const letter="01234567879abcdef";
+    var clr="#";
+     for(var i=0;i<6;i++){
+        clr +=letter[Math.floor(Math.random()*16)]
+     }
+     return clr;}
+
+     const b=document.querySelector("button");
+     const body=document.querySelector("body");
+     document.addEventListener('click',function () {
+        body.style.backgroundColor=toclr();
+        
+        });
+    
+</script>
+</html>
