@@ -1,4 +1,5 @@
 .smili{
+    
     /* background-color:gray; */
     display: flex;
     justify-content: center;
@@ -83,8 +84,8 @@
    
 }
 body{
-    
-   background-image: linear-gradient(black,grey);
+    background-repeat: no-repeat;
+   background-image: linear-gradient(black,grey,rgba(43, 255, 0, 0.582));
 }
 label{
     font-size: 90px;
