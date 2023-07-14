@@ -15,7 +15,7 @@ body{
     margin-left: 40%;
     border-radius: 30%;
    box-shadow: 3px 6px 5px rgb(255, 0, 0);
-   transition: 0.7s (ease-out);
+   transition:  0.5s ease-in-out;
 
    opacity:1;
    
@@ -32,7 +32,7 @@ h2{
 .con:hover{
     background-image:linear-gradient(aqua,green) ;
     box-shadow: 3px 6px 5px black;
-   transition: 0.1s(ease-in);
+   
   
 }
 .top{
