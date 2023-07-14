@@ -1,5 +1,6 @@
-const msginput=document.getElementById("inputmsg");
+
+    const msginput=document.getElementById("inputmsg");
 function message(){
-    document.getElementById("outputmsg").console.log=msginput.value;
+    document.getElementById("outputmsg").innerHTML=msginput.value;
     msginput.value="";
 }
