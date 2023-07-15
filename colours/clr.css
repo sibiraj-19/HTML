@@ -4,21 +4,45 @@ body{
     justify-content: space-around;
     
     background-color: black;
+    
 }
 button{
+    
     box-shadow:15px 12px 7px ;
-    padding:2px ;
-    border:13px;
+    padding:12px ;
+    border:9px;
     border-style: groove;
-   margin-top: 20%;
+   right:800px;
+   margin-top:400px;
     border-radius:20%;
+    position: absolute;
 }
-.up{
-    padding-left:200%;
-    margin:-1px;
-    background-color: aqua;
-    padding-bottom:280px ;
+
+
+button:hover{
+    border-style:none ;
+    animation: button 1s infinite;
 }
-.full{
-    margin-bottom: 20%;
+
+@keyframes button{
+    0%{
+        transform: translateX(20px);
+    background-image:linear-gradient(green,black);
+}
+    25%{
+        transform: translateX(-20px);
+        background-image:linear-gradient(chartreuse,blue);
+    }
+    50%{transform: translateX(20px);
+        background-image:linear-gradient(rgb(255, 0, 191),blue);
+        
+    }
+    75%{transform: translateX(-20px);
+        background-image:linear-gradient(rgb(255, 136, 0),rgb(247, 0, 255));
+    }
+    100%{transform: translateX(20px);
+        background-image:linear-gradient(chartreuse,blue);
+        
+    }
+
 }

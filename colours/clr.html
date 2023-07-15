@@ -6,15 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="clr.css">
 </head>
-<div class="full">
-<body>
-    <div class="up">
-    <center>
+ 
+
+     <center>
     <button type="button" onclick="toclr()"><b>I'M USELESS </b></button>
-</div>
-    </center>
+ </center></div>
 </body>
-</div>
+
 <script>
 function toclr(){
     const letter="01234567879abcdef";
@@ -22,13 +20,15 @@ function toclr(){
      for(var i=0;i<6;i++){
         clr +=letter[Math.floor(Math.random()*16)]
      }
-     return clr;}
+     return clr;
+}
 
-     const b=document.querySelector("button");
+    //  const b=document.querySelector("button");
      const body=document.querySelector("body");
+    
      document.addEventListener('click',function () {
         body.style.backgroundColor=toclr();
-        
+        // body.style.backgroundColor=toclr();
         });
     
 </script>
