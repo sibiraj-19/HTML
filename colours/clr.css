@@ -1,7 +1,5 @@
 body{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+   
     
     background-color: black;
     
@@ -12,8 +10,8 @@ button{
     padding:12px ;
     border:9px;
     border-style: groove;
-   right:800px;
-   margin-top:400px;
+   right:600px;
+   margin-top:300px;
     border-radius:20%;
     position: absolute;
 }
