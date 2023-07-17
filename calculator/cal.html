@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src="Cal.js"></script>
+    <!-- <script src="Cal.js"></script> -->
     <link rel="stylesheet" href="cal.css">
 </head>
 <body><center>
@@ -45,5 +45,57 @@
     </div>
     </div></center>
 </div>
+
+
+<script>
+let operator='';
+let firstNumber='';
+let secondNumber='';
+
+function appendNumber(num){
+    if(operator===''){
+        firstNumber+=num;
+        document.getElementById('result').value=firstNumber;
+    }
+    else{
+        secondNumber+=num;
+        document.getElementById('result').value=secondNumber;
+    }
+}
+function Setoperator(op){
+    operator=op;
+}
+function calculate(){
+    let result;
+
+switch(operator){
+    case '+':
+        result=parseInt(firstNumber)+parseInt(secondNumber);
+        break;
+    case '-':
+        result=parseInt(firstNumber)-parseInt(secondNumber);
+        break;
+    case '*':
+        result=parseInt(firstNumber)*parseInt(secondNumber);
+        break;
+    case '/':
+        result=parseInt(firstNumber)/parseInt(secondNumber);
+        break;
+}
+
+document.getElementById('result').value=result;
+
+// document.getElementById('result').style.background-color: rgb(234, 250, 229);
+secondNumber='';
+ firstNumber='';
+operator='';
+}
+function clearresult(){
+    operator='';
+    firstNumber='';
+    secondNumber='';
+    document.getElementById('result').value='';
+}
+</script>
 </body>
 </html>
