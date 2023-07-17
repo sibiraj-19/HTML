@@ -1,0 +1,58 @@
+h1{
+    padding-bottom: 20px;
+}
+.box{
+    background-color: aquamarine;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 380px;
+    width: 400px;
+    box-shadow: 13px 14px 9px rgb(126, 238, 61);
+}
+button{
+    height: 40px;
+    width: 50px;
+}
+#result{
+    height:20px;
+    box-shadow: 3px 4px 2px grey;
+    margin-bottom: 20px;
+}
+button{
+    background-image: linear-gradient(rgb(255, 184, 251),rgb(0, 255, 242));
+   margin-left: 4px;
+   margin-bottom: 3px;
+    box-shadow: 3px 4px 2px grey;
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(255, 251, 0),rgb(255, 145, 0));
+    height: 30px;
+    width: 40px;
+}
+#result:hover{
+    background-image: radial-gradient(rgb(134, 120, 134),rgb(234, 250, 229));
+
+    /* border: 3px solid brown; */
+}
+.box:hover{
+   border-top-right-radius:80px ;
+   border-bottom-left-radius:80px ;
+}
+.heading{
+   padding-top: 20px;
+    background-color: rgb(194, 128, 255);
+}
+.box:hover .heading{
+    border-top-right-radius:80px ;
+}
+
+.box:hover h1{
+    text-shadow: 1px 2px  rgb(255, 255, 255);
+}
+body{
+
+    border: 3px solid red;
+    background-image:linear-gradient(green,black) ;
+}
+

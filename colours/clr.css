@@ -2,10 +2,14 @@ body{
    
     
     background-color: black;
-    
-}
+}  
+
+
+   
+
 button{
-    
+    color: rgb(0, 0, 0);
+   
     box-shadow:15px 12px 7px ;
     padding:12px ;
     border:9px;
@@ -14,6 +18,7 @@ button{
    margin-top:300px;
     border-radius:20%;
     position: absolute;
+    
 }
 
 
@@ -24,21 +29,23 @@ button:hover{
 
 @keyframes button{
     0%{
+        
         transform: translateX(20px);
     background-image:linear-gradient(green,black);
 }
-    25%{
+    25%{ 
         transform: translateX(-20px);
         background-image:linear-gradient(chartreuse,blue);
     }
-    50%{transform: translateX(20px);
+    50%{transform: translate(20px);
+     
         background-image:linear-gradient(rgb(255, 0, 191),blue);
         
     }
-    75%{transform: translateX(-20px);
+    75%{ transform: translateX(-20px);
         background-image:linear-gradient(rgb(255, 136, 0),rgb(247, 0, 255));
     }
-    100%{transform: translateX(20px);
+    100%{ transform: translateX(20px);
         background-image:linear-gradient(chartreuse,blue);
         
     }
