@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+
+</head>
+<body>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#"target="_blank">About</a>
+    <a href="#">My Oders</a>
+    <a href="#">Cart</a>
+    <a href="#">Profile</a>
+    <a href="#">Rewards</a>
+    <a href="#">Login</a>
+    <br>
+    <br><br>
+    <br>
+   <div class="logo1">
+    ABCD <br> 
+
+           logo
+   </div>
+    
+  </div>
+
+
+    <button class="openbtn" onmouseover="openNav()">&#9776; </button>
+    <div class="heading">
+        <div class="logo">
+          ABCD <br> 
+
+           logo
+
+        </div>
+        <form action="/search" method="get">
+           
+            <input type="text" id="search" name="q" placeholder="Enter your search term here">
+            <!-- <input type="submit" value="Search"> -->
+        </form>
+        <div class="user">
+          <img src="avatar.png" alt="Avatar" class="avatar">
+          <a href="#">User name</a> 
+           
+        </div>
+        <div class="cart"> <a href="#">Cart 🛒</a>
+          
+      </div>
+      <div class="login"><a href="#">login / SignUp </a>
+        
+    </div>
+     
+    </div>
+        
+         
+       
+
+    
+  
+        <script>
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+         }
+        
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          
+        } 
+      </script>
+    </div>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">1 / 2</div> -->
+    <img src="img2.jpeg" style="width:100%; height:270px;" >
+    <!-- <div class="text">Caption Text</div> -->
+  </div>
+  
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 2</div> -->
+    <img src="img1.jpeg"  style="width:100%; height:270px;">
+    <!-- <div class="text">Caption Two</div> -->
+  </div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <!-- <span class="dot"></span>  -->
+ </div>
+       
+
+<section id="content">
+
+<table>
+  <tr>
+   <td ><a href=""target="_blank"> <div class="product"style=" height:50%;
+    ">  <img src="grocery-removebg-preview.png" alt="grocery"></div></a></td>
+     <td ><a href=""target="_blank"> <div class="product"style=" height:50%;
+      ">  <img src="toys-removebg-preview.png" alt="grocery"></div></a></td>
+ <td> <a href=""target="_blank"> <div class="product"style=" height:50%;
+  ">  <img src="eapp-removebg-preview-removebg-preview.png" alt="eletronics"></div></a></td></tr>
+ <tr> <td> <a href=""target="_blank">  <div class="product"style=" height:50%;
+  "> <img src="clothes-removebg-preview.png" alt="fasion"></div></a></td>
+    <td><a href=""target="_blank"><div class="product"style=" height:50%;
+     ">  <img src="food-removebg-preview.png" alt="food"></div></a></td>
+      <td> <a href=""target="_blank"> <div class="product"style=" height:50%;
+        "><img src="med-removebg-preview.png" alt="food"></div></a></td></tr>
+</table>
+</section>
+
+ 
+</div>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+   
+</body>
+</html>
